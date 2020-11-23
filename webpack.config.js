@@ -35,7 +35,7 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: "wdr_ui_label",
+      name: "wdr_ui_report",
       filename: "remoteEntry.js",
       exposes: {
         './App': "./src/App"
