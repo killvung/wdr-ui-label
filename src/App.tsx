@@ -8,7 +8,7 @@ interface AppProps {
 
 const App: React.FC<AppProps> = (props) => (
   <div>
-    <h1>Label</h1>
+    <h1>Report</h1>
     <h2>{props.result.length === 0 ? PLACEHOLDER : "Report: "}</h2>
   </div>
 );
